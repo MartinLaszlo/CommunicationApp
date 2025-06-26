@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default light theme variables */
+:root {
+    --color-text: #333; /* Dark text for light mode */
+    --color-background: #dedcff; 
+    --color-background-secondary: #9d9afc;
+    --color-sidenav-primary: #ffffff;
+    --color-sidenav-secondary: #dedcff;
+    --color-sidenav-tertiary: #ced4da;
+    --color-primary: #fbfbfe;
+    --color-secondary: #433bff;
+    --color-tertiary: #dedcff;
+    --color-accent: #433bff;
+    --color-input-txt: #2c3033;
+    --color-info-txt: #343a40;
+    --file-border-color: #433bff;
+    --color-timestamp: #949ca6;
+    --button-sec: #9a96fd;
+}
+
+/* Dark theme variables */
+[data-theme="dark"] {
+    --color-text: #e4eaeb;
+    --color-background: #2b303b;
+    --color-background-secondary: #1C1F26;
+    --color-sidenav-primary: #111317;
+    --color-sidenav-secondary: #141f38;
+    --color-sidenav-tertiary: #141f38;
+    --color-primary: #16181D;
+    --color-secondary: #1E5680;
+    --color-tertiary: #292E38;
+    --color-accent: #4bb5f5;
+    --color-input-txt: #A0A1B2;
+    --color-info-txt: #B7B9CC;
+    --file-border-color: #4bb5f5;
+    --color-timestamp: #949ca6;
+    --button-sec: #378fd1;
+}
